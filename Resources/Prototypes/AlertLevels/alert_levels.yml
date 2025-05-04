@@ -4,6 +4,7 @@
   levels:
     green:
       announcement: alert-level-green-announcement
+      sound: /Audio/Misc/greenalert.ogg
       color: Green
       emergencyLightColor: LawnGreen
       shuttleTime: 600
@@ -14,9 +15,27 @@
       forceEnableEmergencyLights: true
       emergencyLightColor: DodgerBlue
       shuttleTime: 600
+    amber:
+      announcement: alert-level-amber-announcement
+      sound:
+        path: /Audio/Misc/amberalert.ogg
+        params:
+          volume: -3
+      disableSelection: true
+      color: Orange
+      emergencyLightColor: Orange
+      forceEnableEmergencyLights: true
+      shuttleTime: 600
+    red:
+      announcement: alert-level-red-announcement
+      sound: /Audio/Misc/deltaredalert.ogg
+      color: Red
+      emergencyLightColor: Red
+      forceEnableEmergencyLights: true
+      shuttleTime: 600 #No reduction in time as we don't have swiping for red alert like in /tg/. Shuttle times are intended to create friction, so having a way to brainlessly bypass that would be dumb.
     violet:
       announcement: alert-level-violet-announcement
-      sound: /Audio/Misc/notice1.ogg
+      sound: /Audio/Misc/violetalert.ogg
       color: Violet
       emergencyLightColor: Violet
       forceEnableEmergencyLights: true
@@ -28,13 +47,6 @@
       emergencyLightColor: Goldenrod
       forceEnableEmergencyLights: true
       shuttleTime: 600
-    red:
-      announcement: alert-level-red-announcement
-      sound: /Audio/Misc/redalert.ogg
-      color: Red
-      emergencyLightColor: Red
-      forceEnableEmergencyLights: true
-      shuttleTime: 600 #No reduction in time as we don't have swiping for red alert like in /tg/. Shuttle times are intended to create friction, so having a way to brainlessly bypass that would be dumb.
     gamma:
       announcement: alert-level-gamma-announcement
       selectable: false
@@ -46,6 +58,7 @@
       color: PaleVioletRed
       emergencyLightColor: PaleVioletRed
       forceEnableEmergencyLights: true
+      shuttleTime: 1200
     delta:
       announcement: alert-level-delta-announcement
       selectable: false
@@ -69,4 +82,4 @@
       color: DarkViolet
       emergencyLightColor: DarkViolet
       forceEnableEmergencyLights: true
-      shuttleTime: 1200
+      shuttleTime: 1800
