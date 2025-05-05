@@ -4,7 +4,10 @@
   levels:
     green:
       announcement: alert-level-green-announcement
-      sound: /Audio/Misc/greenalert.ogg
+      sound:
+        path: /Audio/Misc/greenalert.ogg
+        params:
+          volume: -1
       color: Green
       emergencyLightColor: LawnGreen
       shuttleTime: 600
@@ -17,18 +20,17 @@
       shuttleTime: 600
     amber:
       announcement: alert-level-amber-announcement
-      sound:
-        path: /Audio/Misc/amberalert.ogg
-        params:
-          volume: -3
-      disableSelection: true
+      sound: /Audio/Misc/amberalert.ogg
       color: Orange
       emergencyLightColor: Orange
       forceEnableEmergencyLights: true
       shuttleTime: 600
     red:
       announcement: alert-level-red-announcement
-      sound: /Audio/Misc/deltaredalert.ogg
+      sound:
+        path: /Audio/Misc/deltaredalert.ogg
+        params:
+          volume: -4
       color: Red
       emergencyLightColor: Red
       forceEnableEmergencyLights: true
@@ -82,4 +84,4 @@
       color: DarkViolet
       emergencyLightColor: DarkViolet
       forceEnableEmergencyLights: true
-      shuttleTime: 1800
+      #shuttleTime: 1800

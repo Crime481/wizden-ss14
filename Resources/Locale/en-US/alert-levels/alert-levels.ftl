@@ -16,8 +16,8 @@ alert-level-amber-announcement = There is a confirmed threat to the station. Sec
 alert-level-amber-instructions = Crewmembers should find a safe place to shelter in, and are advised to follow any present authorities.
 
 alert-level-red = Red
-alert-level-red-announcement = There is a huge threat to the station. idk what to put here
-alert-level-red-instructions = placeholder
+alert-level-red-announcement = There is a huge threat to the station. Security should have lethal force at all times. Crewmembers should find a safe place to shelter in, immediately. WEAPON RESTRICTIONS ARE NOT IN EFFECT.
+alert-level-red-instructions = All civilians are to immediately seek their nearest head for transportation to a secure location.
 
 alert-level-violet = Violet
 alert-level-violet-announcement = There is a viral threat on the station. Medical staff are advised to isolate crewmembers with any symptoms. Crewmembers are advised to distance themselves from others and perform safety measures to prevent further spread.
@@ -29,7 +29,7 @@ alert-level-yellow-instructions = Crewmembers are advised to stay away from the 
 
 alert-level-gamma = Gamma
 alert-level-gamma-announcement = AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA HELP
-alert-level-gamma-instructions = All civilians are to immediately seek their nearest head for transportation to a secure location.
+alert-level-gamma-instructions = All crewmembers are to immediately seek their nearest head for transportation to a secure location.
 
 alert-level-delta = Delta
 alert-level-delta-announcement = The station is currently under threat of imminent destruction. Crew should immediately evacuate the station.
